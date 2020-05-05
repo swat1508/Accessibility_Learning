@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    
+
+
+<header>
+    <nav>
+        <ul>
+
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a> </li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div class="flex-container">
+            <article>
+        <h1>Registered User or New User?</h1>
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+        </article>
+
+   <aside>
+    <form>
+        <fieldset>
+            <legend id="login_info">Already Registered ?</legend>
+<div class="form-group">
+        <label for="uname" id="user_name">User Name:</label>
+        <input type="text" id="fname" name="fname" aria-label="user name of your choice">
+    </div>
+    
+    <div class="form-group">    
+        <label for="pw" id="user_pass">Password:</label>
+        <input type="password" id="pw" name="password" aria-describedby="pw-hint">
+</div>
+<div class="form-group">
+        <button type="submit">Login</button>
+    </div>
+<div>
+        <div id="pw-hint" aria-hidden="true">Note:Password should be atleast 6 characters and must have 1 uppercase 1 smallcase and 1 special character</div>
+    </div>
+    </fieldset>
+    </form>
+</aside>
+</div>
+
+   <form class="flex-container registerer-form">  
+       <div><h2>Fill the details below :</h2></div>
+
+       <fieldset>
+        <legend id="personal_info">Personal Information</legend>
+
+                <div class="form-group">
+                    <label for="fname" id="first_name">First name:</label>
+                    <input type="text" id="fname" name="fname" aria-labelledby="personal_info first_name">
+                </div>
+
+                <div class="form-group">
+                    <label for="lname" id="last_name">Last name:</label>
+                    <input type="text" id="lname" name="lname" aria-labelledby="personal_info last_name">
+                </div>
+                <div class="form-group">
+                    <label for="email" id="email_id">Email ID:</label>
+                    <input type="email" id="email" name="email" aria-labelledby="personal_info email_id">
+                </div>
+                <div class="form-group" role="radiogroup">
+                    <span id="gender">Select Gender</span>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </div>
+                <div class="form-group">
+                    <button class="open-modal">Read Term and Conditions</button>
+                </div>
+                <div>
+                    <button type="submit">Submit </button>
+                </div>
+     
+    </fieldset>
+
+   </form>
+
+    
+</main>
+
+
+<div class="modal-popup" id="TermAndConditions" role="dialog" aria-labelledby="modal-header">
+    <div class="modal-container">
+        <div class="modal-header" id="modal-header"> <h2>Terms and Conditions...</h2> </div>
+        <div class="modal-content">
+                Contrary to popular belief, 
+                <a href="#" aria-label="link in modal">See this</a>
+                Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="close-modal">Close me</button>
+        </div>
+    </div>
+</div>
+
+<footer>
+
+</footer>
+
+
+
+
+
+
+
+</body>
+
+<!--  <script src="./src/index.js"></script>  -->
+<!--  <script src="./dist/main.js"></script>  -->
+
+</html>
